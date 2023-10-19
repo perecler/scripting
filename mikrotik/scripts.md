@@ -6,10 +6,10 @@ You can separate the commands within the same line using a semicolon (;) (for ex
 Texts that we wish to send, such as names or saved scripts, should be enclosed in double quotation marks (""). Within this content, line breaks are performed using \r\n, and characters like double quotes (") and the dollar sign ($) need to be escaped.
 
 
-- SYSTEM AND RESOURCES INFO:
+- SYSTEM AND RESOURCES INFO
 `/system identity print;/system resource print`
 
-- SEARCH IN FILES, FOR EXAMPLE A BACKUP FILE:
+- SEARCH IN FILES, FOR EXAMPLE A BACKUP FILE
 `/file print where name~"backup"`
 
 - EXAMPLE OF EMAIL SENDING INFORMATION AND A BACKUP
