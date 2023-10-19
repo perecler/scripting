@@ -7,7 +7,7 @@ Texts that we wish to send, such as names or saved scripts, should be enclosed i
 
 
 - SYSTEM AND RESOURCES INFO:
-> /system identity print;/system resource print
+`/system identity print;/system resource print`
 
 - SEARCH IN FILES, FOR EXAMPLE A BACKUP FILE:
 > /file print where name~"backup"
