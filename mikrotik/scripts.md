@@ -7,16 +7,16 @@ Texts that we wish to send, such as names or saved scripts, should be enclosed i
 
 
 - SYSTEM AND RESOURCES INFO:
-  /system identity print;/system resource print
+> /system identity print;/system resource print
 
 - SEARCH IN FILES, FOR EXAMPLE A BACKUP FILE:
-  /file print where name~"backup"
+> /file print where name~"backup"
 
 - EXAMPLE OF EMAIL SENDING INFORMATION AND A BACKUP
-  /tool e-mail send file=name_backup.backup to="MAIL@TEST.COM" body="Backup" subject="$[/system identity get name] $[/system clock get time] $[/system clock get date] Backup"
+> /tool e-mail send file=name_backup.backup to="MAIL@TEST.COM" body="Backup" subject="$[/system identity get name] $[/system clock get time] $[/system clock get date] Backup"
 
 - SET LEASE TIME IN 10MIN:
-  set lease-time=10m hotspot
+> set lease-time=10m hotspot
 
 - SHORT INTERVAL FOR REPAIR PERIODS
   set lease-time=30s hotspot
